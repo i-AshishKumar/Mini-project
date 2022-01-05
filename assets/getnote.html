@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Get Notes | Note Share</title>
+    <link rel="stylesheet" href="css/getnote.css">
+    <link rel="shortcut icon" href="images/favicon1-removebg.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Nova+Mono|Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ///////////////////////////navbar//////////////////////////////////////// -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top pb-">
+        <a class="navbar-brand" href="/">Note Share</a>
+        <!-- <a href="../index.html"><img src="images/text4.png"> </a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent" style="color:white;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="about.html" style="color:white;"> ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="contact.html" style="color:white;">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" id="profile" onclick="logOut()" href="#" style="color:white;">LOG OUT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="button3d container">
+        <div class="row w-100">
+            <div class="box3d col-lg-3 col-md-6 col-12 mb-2 p-1 d-inline-flex">
+                <a href="#cse">
+                    <button type="button" name="CS" class="btn-3d-1">II - I</button>
+                </a>
+
+            </div>
+            <div class="box3d col-lg-3 col-md-6 col-12 mb-2 p-1 d-inline-flex">
+                <a href="#ii-ii">
+                    <button type="button" name="IT" class="btn-3d-1">II -II</button>
+                </a>
+            </div>
+
+            <div class="box3d col-lg-3 col-md-6 col-12 mb-2 p-1 d-inline-flex">
+                <a href="#iii-i">
+                    <button type="button" name="MAE" class="btn-3d-1">III - I</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <br>
+
+    <h2 style="text-align: center;">II - I</h2> <br> <br>
+    <div class="container contcard">
+
+        <div class="row">
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">NMPS</h5>
+                        <a href="https://drive.google.com/drive/folders/1N0T2v_uMrxk0ZcQ0LFPA1B9oC_pSFt1c?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">DSA</h5>
+                        <a href="https://drive.google.com/drive/folders/1CObKsHVcyJcG9l3j-DZ9PfdyAcMknJBy?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card " style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">DMS</h5>
+                        <a href="https://drive.google.com/drive/folders/1L_Q8aTmgw9PFtDOJGGdQbyBdMyHt4hyI?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">CO</h5>
+                        <a href="https://drive.google.com/drive/folders/1i11qRpu3m7V2pfCXzKhLtVoohw51C_Rg?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">OS</h5>
+                        <a href="https://drive.google.com/drive/folders/1FzK_YcuQfcduljs5XXF8noCU1a52h8lP?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2 ">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">SP</h5>
+                        <a href="https://drive.google.com/drive/folders/10f_Cg0njcNtWz0SshCQWE3b0RSQ3KLLX?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <br> <br> <br>
+    <!-- ///////////////////////////////////////////II - II//////////////////////////////////////// -->
+    <h2 style="text-align: center;">II - II</h2> <br> <br>
+    <div class="container contcard" id="ii-ii">
+
+        <div class="row">
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">DBMS</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1WYjvXwNEbajsa5iMjWeV0O1FhudlaVMj?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">DAA</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1GyrzHqZFiaeANqQg4X8qJi4Y7biAJEGm?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card " style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">TOC</h5>
+
+                        <a href="https://drive.google.com/drive/folders/10-PNGMXxf7m4N5QQlglie9b_EfMWntBD?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">SE</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1AkJHbG-24T8q6ymIYT-4LYhhm-GqdbKP?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Cyber Laws</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1bmlZdAljECW-pSYARDKm2MlybIYTiCiy?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2 ">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">ES</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1_mZTQneXM2Kk0lWch6hXVEKVGph_lcVi?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <br> <br> <br>
+
+    <!-- ///////////////////////////////////////////III - I/////////////////////////////////////// -->
+    <h2 style="text-align: center;">III - I</h2> <br> <br>
+    <div class="container contcard" id="iii-i">
+
+        <div class="row">
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">AI</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1WYjvXwNEbajsa5iMjWeV0O1FhudlaVMj?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">CN</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1GyrzHqZFiaeANqQg4X8qJi4Y7biAJEGm?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card " style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">IOT</h5>
+
+                        <a href="https://drive.google.com/drive/folders/10-PNGMXxf7m4N5QQlglie9b_EfMWntBD?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">UHV</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1AkJHbG-24T8q6ymIYT-4LYhhm-GqdbKP?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">WT</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1bmlZdAljECW-pSYARDKm2MlybIYTiCiy?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-12 mb-2 ">
+                <div class="card" style="width: 18rem;">
+
+                    <div class="card-body">
+                        <h5 class="card-title">BCCS</h5>
+
+                        <a href="https://drive.google.com/drive/folders/1_mZTQneXM2Kk0lWch6hXVEKVGph_lcVi?usp=sharing"
+                            class="btn btn-primary">View Notes</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <br> <br> <br>
+    
+
+
+        </div>
+    </div>
+    <!-- ||||||||||||||||||||||||||||||||| footer|||||||||||||||||||||||||||||||||||||-->
+    <footer>
+        <svg viewBox="0 0 120 20">
+            <defs>
+                <mask id="xxx">
+                    <circle cx="7" cy="12" r="40" fill="#fff" />
+                </mask>
+
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="
+               1 0 0 0 0  
+               0 1 0 0 0  
+               0 0 1 0 0  
+               0 0 0 13 -9" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+                <path id="wave"
+                    d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+            </defs>
+
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
+
+
+            <g class="gooeff">
+                <circle class="drop drop1" cx="20" cy="2" r="1.8" />
+                <circle class="drop drop2" cx="25" cy="2.5" r="1.5" />
+                <circle class="drop drop3" cx="16" cy="2.8" r="1.2" />
+                <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+
+        </svg>
+
+        <div class="cont">Copyright <i class="far fa-copyright"></i> 2021
+            Note Share. All rights reserved. <br>
+            <br>
+            <span class="icons">
+
+
+                <a href="mailto: noteshare@gmail.com" style="color: antiquewhite;"> <i class="fas fa-envelope"
+                        style="margin-right: 20px; text-decoration: none;"></i></a>
+                <a href="https://goo.gl/maps/xPLYAZqJnNJKdfAr6" style="color: antiquewhite;"> <i
+                        class="fas fa-map-marker-alt" style="margin-right: 20px; text-decoration: none;"></i> </a>
+
+
+            </span>
+        </div>
+    </footer>
+
+    <!-- Arrow up -->
+    <div class="scrolltop float-right">
+        <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/logout.js"></script>
+
+
+    <!-- JS for Arrow up -->
+
+    <script>
+
+        //get the button
+        mybutton = document.getElementById("myBtn");
+
+        //when the user scrolls down 20px from the top of the webpage, show the button
+        window.onscroll = function () { scrollfunction() };
+
+        function scrollfunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            }
+            else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        //when the user clicks on the button, scroll to the top of the webpage
+
+        function topFunction() {
+            document.body.scrollTop = 0; //for safari
+            document.documentElement.scrollTop = 0; //for chrome, firefox, IE and opera
+        }
+
+    </script>
+
+</body>
+
+</html>
